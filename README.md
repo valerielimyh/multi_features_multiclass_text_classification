@@ -12,22 +12,17 @@ poetry run jupyter lab
 
 Repo to create containerized ML web service of this project can be found [here](https://github.com/valerielimyh/fastapi_ml_pytest)
 
-==============================================================================================
-==============================================================================================
-Dataset is derived from:
+
+- Dataset is derived from:
 
 T. Bertin-Mahieux, D. P.W. Ellis, B. Whitman, and P. Lamere. The million song dataset. In
 Proceedings of the 12th International Conference on Music Information Retrieval (ISMIR),
 2011.
 A. Schindler and A. Rauber. Capturing the temporal domain in Echonest Features for improved
 classification effectiveness. In Proceedings of the 10th InternationalWorkshop on Adaptive Multimedia Retrieval (AMR), 2012.
-==============================================================================================
-==============================================================================================
 
-========
-Features
-========
 
+#### Features
 * trackID: unique identifier for each song (Maps features to their labels)
 * title: title of the song. Type: text.
 * tags: A comma-separated list of tags representing the words that appeared in the lyrics of the song and are assigned by human annotators. Type: text / categorical.
@@ -42,9 +37,7 @@ Features
 	- Each feature takes a continuous value. Type: float / continuous.
  
 
-=======
-Labels
-=======
+#### Labels
 
 * trackID: unique id for each song (Maps features to their labels)
 * genre: the genre label
